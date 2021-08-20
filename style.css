@@ -1,0 +1,133 @@
+:root {
+	--red: hsl(7, 99%, 70%);
+	--yellow: hsl(51, 100%, 49%);
+	--d-cyan: hsl(167, 40%, 24%);
+	--m-cyan: hsl(168, 34%, 41%);
+	--blue: hsl(198, 62%, 26%);
+
+	--v-dark-d-blue: hsl(212, 27%, 19%);
+	--v-dark-g-blue: hsl(213, 9%, 39%);
+	--dark-g-blue: hsl(232, 10%, 55%);
+	--g-blue: hsl(210, 4%, 67%);
+	--white: hsl(0, 0%, 100%);
+
+	--ff-heading: 'Fraunces', sans-serif;
+	--ff-text: 'Barlow', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: var(--ff-text);
+	color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--ff-heading);
+}
+
+/* THE HEADER */
+/* navigation bar */
+header {
+	height: 75vh;
+	width: 100%;
+	background: url('./images/mobile/image-header.jpg') center no-repeat;
+	background-size: cover;
+	padding: 1.5em;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: relative;
+}
+
+nav .nav-wrapper {
+	display: none;
+	/* display: flex; */
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1em;
+
+	position: absolute;
+	top: 200%;
+	left: 0;
+
+	width: 100%;
+	color: var(--g-blue);
+	background-color: var(--white);
+
+	list-style: none;
+}
+
+nav .nav-wrapper .nav-item {
+	margin: 0.75em;
+}
+
+.nav-wrapper .nav-btn {
+	padding: 0.75em 1.25em;
+
+	font-family: var(--ff-heading);
+	color: var(--v-dark-d-blue);
+	background-color: var(--yellow);
+
+	border-radius: 1.5em;
+	cursor: pointer;
+}
+
+/* the pointing arrow */
+.nav-wrapper::after {
+	content: '';
+	position: absolute;
+	top: -1em;
+	right: 0;
+
+	height: 0;
+	width: 0;
+
+	border-bottom: 1em solid var(--white);
+	border-left: 1em solid transparent;
+}
+
+nav .nav-menu {
+	cursor: pointer;
+}
+
+/* hero section */
+header .hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	font-weight: 900;
+
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.hero img {
+	margin-top: 5em;
+}
