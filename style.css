@@ -445,6 +445,7 @@ footer .lists {
 	}
 
 	.content h2 {
+		width: 100%;
 		font-size: clamp(1.5rem, 3.5vw, 3rem);
 	}
 
