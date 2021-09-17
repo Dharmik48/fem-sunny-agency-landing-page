@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-[My solution - Desktop](screenshot/desktop.jpg)
-[My solution - Mobile](screenshot/mobile.jpg)
+![My solution - Desktop](screenshot/desktop.jpeg)
+![My solution - Mobile](screenshot/mobile.jpeg)
 
 ### Links
 
@@ -48,5 +48,5 @@ The new 'gap' property for FlexBox is a game changer so, definetly using it in f
 
 ## Author
 
-- Website - [Dharmik](https://github.com/Dharmik48)
+- GitHub - [Dharmik](https://github.com/Dharmik48)
 - Frontend Mentor - [@Dharmik48](https://www.frontendmentor.io/profile/Dharmik48)
